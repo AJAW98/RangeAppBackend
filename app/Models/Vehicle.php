@@ -12,7 +12,9 @@ class Vehicle extends Model
     protected $fillable = [
         'name',
         'voltage',
-        'batteryCapacity',
-        'weight'
+        'battery_capacity',
+        'weight',
+        'user_id',
+        'battery_level'
     ];
 }

@@ -18,7 +18,7 @@ return new class extends Migration
             );
             $table->string('name');
             $table->integer('voltage');
-            $table->integer('batteryCapacity');
+            $table->integer('battery_capacity');
             $table->integer('weight');
             $table->timestamps();
         });
